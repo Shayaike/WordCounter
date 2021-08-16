@@ -1,0 +1,7 @@
+input[type="button"] {
+    padding: 0.25rem 1.5rem;
+    background-color: powderblue;
+    border: 1px solid powderblue;
+    border-radius: 0.15rem;
+    margin: 2rem 2rem 2rem 0;
+}
