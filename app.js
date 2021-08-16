@@ -15,6 +15,15 @@ function main() {
         document.getElementById("specialCharacter").innerText = specialCharacterCount(alltext)
 
     })
+    document.getElementById('reset').addEventListener('click', function() {
+        document.getElementById('textarea').value = 0
+        document.getElementById("character").innerText = 0
+        document.getElementById("words").innerText = 0
+        document.getElementById("spaces").innerText = 0
+        document.getElementById("sentences").innerText = 0
+        document.getElementById("specialCharacter").innerText = 0
+
+    })
 
 }
 // Character Counter
