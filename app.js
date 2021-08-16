@@ -16,7 +16,7 @@ function main() {
 
     })
     document.getElementById('reset').addEventListener('click', function() {
-        document.getElementById('textarea').value = 0
+        document.getElementById('textarea').value = ""
         document.getElementById("character").innerText = 0
         document.getElementById("words").innerText = 0
         document.getElementById("spaces").innerText = 0
